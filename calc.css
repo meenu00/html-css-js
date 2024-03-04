@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-size: 500%;
+}
+
+h2 {
+    font-size: 400%   
+}
+
+.container{
+    text-align: center;
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.in {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.divout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.bttn {
+    padding-left: 3%;
+    padding-right: 3%;
+}

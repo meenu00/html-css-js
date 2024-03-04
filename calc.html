@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js" ></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="inp">
+            <div class="in">
+                <input type="text" id="input1" placeholder="ENTER THE FIRST NUMBER"/>
+            </div>
+            <div class="in">
+                <input type="text" id="input2" placeholder="ENTER THE FIRST NUMBER"/>
+            </div>
+        </div>
+        <div class="container">
+            <h2 id="answer">0</h2>
+        </div>
+        <div class="divout">
+            <div class="bttn">
+                <button onclick="add()" >+</button>
+            </div>
+            <div class="bttn">
+                <button onclick="substract()">-</button>
+            </div>
+            <div class="bttn">
+                <button onclick="multiply()">*</button>
+            </div>
+            <div class="bttn">
+                <button onclick="divide()">/</button>
+            </div>
+            <div class="bttn">
+                <button onclick="clr()">Clr</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
